@@ -1,0 +1,771 @@
+.main {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.parallax-div {
+  background-image: url(../Images/parallax-image.png);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.hero-section {
+  position: absolute;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 40vh 150px 10% 40%;
+  flex-shrink: 0;
+  max-height: 100%;
+  align-items: stretch;
+
+}
+
+.main-phrase {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  width: auto;
+  height: auto;
+  text-align: right;
+  white-space: nowrap;
+  background-color: rgba(57, 81, 155, 0.4);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 25px 25px 10px 25px;
+}
+
+.subtext {
+  color: white;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: right;
+  background-color: rgba(57, 81, 155, 0.3);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 25px;
+}
+
+.action-button {
+  background-color: white;
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 15px;
+  border-radius: 40px;
+  margin-top: 15px;
+  box-shadow: rgba(0, 2px, 5px, 0.7);
+  cursor: pointer;
+}
+
+.action-button-link {
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: rgb(57, 81, 155);
+}
+
+.action-button:hover {
+  background-color: rgb(235, 239, 243);
+  box-shadow: rgba(0, 2px, 5px, 0.7);
+}
+
+.main-info {
+  height: 70vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-height: 100%;
+}
+
+.main-header2 {
+  font-size: 22px;
+  font-weight: 300;
+  color: rgb(57, 81, 155);
+  margin-bottom: 30px;
+}
+
+.sections {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.main-sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  width: 310px;
+  height: 500px;
+  background-color: rgb(57, 81, 155);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.main-sections:hover {
+  opacity: 80%;
+  transform: scale(101%);
+}
+
+.div-image-main-section {
+  flex: 0.7;
+}
+
+.image-main-section {
+  height: 310px;
+  width: 310px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+
+.main-section-text {
+  flex: 0.3;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  flex-shrink: 0;
+}
+
+.staff-section {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+
+}
+
+.profile-doc {
+  height: 450px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px lightblue;
+  margin-bottom: 25px;
+}
+
+.profile-name {
+  font-size: 20px;
+  color: rgb(57, 81, 155);
+  margin-bottom: 10px;
+}
+
+.profile-title {
+  font-size: 15px;
+  color: rgb(57, 81, 155);
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex-shrink: 0;
+}
+
+.social-icons-image {
+  height: 40px;
+}
+
+@media (max-height: 900px) {
+  .staff-section {
+    min-height: 900px;
+    flex-shrink: 0;
+  }
+
+  .main-info {
+    min-height: 900px;
+    flex-shrink: 0;
+  }
+
+  .main {
+    min-height: 600px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+  .main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .parallax-div {
+    background-image: url(../Images/parallax-image.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    min-height: 100%;
+    background-position: -150px;
+  }
+
+  .hero-section {
+    position: absolute;
+    width: 700px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 40vh 50px 50px 50px;
+    max-height: 100%;
+    align-items: stretch;
+
+
+  }
+
+  .main-phrase {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    width: auto;
+    height: auto;
+    background-color: rgba(57, 81, 155, 0.6);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .main-phrase>br {
+    display: none;
+  }
+
+  .subtext {
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    background-color: rgba(57, 81, 155, 0.3);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .action-button {
+    background-color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    border-radius: 40px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 2px, 5px, 0.7);
+    cursor: pointer;
+  }
+
+  .action-button-link {
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(57, 81, 155);
+  }
+
+  .action-button:hover {
+    background-color: rgb(235, 239, 243);
+    box-shadow: rgba(0, 2px, 5px, 0.7);
+  }
+
+  .main-info {
+    height: max-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-height: 100%;
+    margin: 45px auto 35px auto;
+  }
+
+  .main-header2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(57, 81, 155);
+    margin-bottom: 30px;
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .main-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    width: 450px;
+    height: max-content;
+    background-color: rgb(57, 81, 155);
+    cursor: pointer;
+    flex-shrink: 0;
+    padding-bottom: 40px;
+  }
+
+  .main-sections:hover {
+    opacity: 80%;
+    transform: scale(101%);
+  }
+
+  .div-image-main-section {
+    flex: 0.7;
+  }
+
+  .image-main-section {
+    height: 350px;
+    width: 450px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+  }
+
+  .main-section-text {
+    flex: 0.3;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 20px 0px 20px;
+    flex-shrink: 0;
+  }
+
+  .staff-section {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    min-height: 900px;
+
+  }
+
+  .profile-doc {
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px lightblue;
+    margin-bottom: 25px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+    color: rgb(57, 81, 155);
+    margin-bottom: 10px;
+  }
+
+  .profile-title {
+    font-size: 15px;
+    color: rgb(57, 81, 155);
+    margin-bottom: 20px;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-shrink: 0;
+  }
+
+  .social-icons-image {
+    height: 40px;
+  }
+
+}
+
+@media (min-width: 500px) and (max-width: 749px) {
+  .main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .parallax-div {
+    background-image: url(../Images/parallax-image.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    min-height: 100%;
+    background-position: -150px;
+  }
+
+  .hero-section {
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 40vh 50px 50px 50px;
+    max-height: 100%;
+    align-items: stretch;
+
+
+  }
+
+  .main-phrase {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    width: auto;
+    height: auto;
+    background-color: rgba(57, 81, 155, 0.6);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+
+  .subtext {
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+    background-color: rgba(57, 81, 155, 0.3);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .action-button {
+    background-color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    border-radius: 40px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 2px, 5px, 0.7);
+    cursor: pointer;
+  }
+
+  .action-button-link {
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(57, 81, 155);
+  }
+
+  .action-button:hover {
+    background-color: rgb(235, 239, 243);
+    box-shadow: rgba(0, 2px, 5px, 0.7);
+  }
+
+  .main-info {
+    height: max-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-height: 100%;
+    margin: 45px auto 45px auto;
+  }
+
+  .main-header2 {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(57, 81, 155);
+    margin-bottom: 30px;
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .main-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    width: 350px;
+    height: max-content;
+    background-color: rgb(57, 81, 155);
+    cursor: pointer;
+    flex-shrink: 0;
+    padding-bottom: 40px;
+  }
+
+  .main-sections:hover {
+    opacity: 80%;
+    transform: scale(101%);
+  }
+
+  .div-image-main-section {
+    flex: 0.7;
+  }
+
+  .image-main-section {
+    height: 350px;
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+  }
+
+  .main-section-text {
+    flex: 0.3;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 20px 0px 20px;
+    flex-shrink: 0;
+  }
+
+  .staff-section {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    min-height: 900px;
+
+  }
+
+  .profile-doc {
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px lightblue;
+    margin-bottom: 25px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+    color: rgb(57, 81, 155);
+    margin-bottom: 10px;
+  }
+
+  .profile-title {
+    font-size: 15px;
+    color: rgb(57, 81, 155);
+    margin-bottom: 20px;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-shrink: 0;
+  }
+
+  .social-icons-image {
+    height: 40px;
+  }
+
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .parallax-div {
+    background-image: url(../Images/parallax-image.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    min-height: 100%;
+    background-position: -170px;
+  }
+
+  .hero-section {
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 50vh 50px 5px 50px;
+    max-height: 100%;
+    align-items: stretch;
+
+
+  }
+
+  .main-phrase {
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    width: auto;
+    height: auto;
+    background-color: rgba(57, 81, 155, 0.6);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+
+  .subtext {
+    color: white;
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    background-color: rgba(57, 81, 155, 0.3);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .action-button {
+    background-color: white;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    border-radius: 40px;
+    margin-top: 15px;
+    box-shadow: rgba(0, 2px, 5px, 0.7);
+    cursor: pointer;
+  }
+
+  .action-button-link {
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(57, 81, 155);
+  }
+
+  .action-button:hover {
+    background-color: rgb(235, 239, 243);
+    box-shadow: rgba(0, 2px, 5px, 0.7);
+  }
+
+  .main-info {
+    height: max-content;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    min-height: 100%;
+    margin: 45px 10px 45px 10px;
+  }
+
+  .main-header2 {
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(57, 81, 155);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .sections {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .main-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    width: 300px;
+    height: max-content;
+    background-color: rgb(57, 81, 155);
+    cursor: pointer;
+    flex-shrink: 0;
+    padding-bottom: 40px;
+  }
+
+  .main-sections:hover {
+    opacity: 80%;
+    transform: scale(101%);
+  }
+
+  .div-image-main-section {
+    flex: 0.7;
+  }
+
+  .image-main-section {
+    height: 300px;
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+  }
+
+  .main-section-text {
+    flex: 0.3;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 20px 0px 20px;
+    flex-shrink: 0;
+  }
+
+  .staff-section {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    min-height: 900px;
+
+  }
+
+  .profile-doc {
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px lightblue;
+    margin-bottom: 25px;
+  }
+
+  .profile-name {
+    font-size: 20px;
+    color: rgb(57, 81, 155);
+    margin-bottom: 10px;
+  }
+
+  .profile-title {
+    font-size: 15px;
+    color: rgb(57, 81, 155);
+    margin-bottom: 20px;
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-shrink: 0;
+  }
+
+  .social-icons-image {
+    height: 40px;
+  }
+
+}

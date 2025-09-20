@@ -1,0 +1,345 @@
+.nav-container {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  background-color: white;
+  width: 100vw;
+  justify-content: space-between;
+  padding: 15px;
+  box-sizing: border-box;
+  align-items: center;
+  z-index: 100;
+  box-shadow: 0px 1px 4px rgb(160, 178, 184);
+  overflow: hidden;
+}
+
+.header-left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  justify-content: space-evenly;
+}
+
+.logo-link {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: auto;
+  height: auto;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.logo-header {
+  width: 40px;
+  height: auto;
+}
+
+.logo-name {
+  font-size: 17px;
+  font-weight: 600;
+  color: rgb(50, 50, 139);
+}
+
+.header-right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+
+.links-header {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 0px 20px;
+  color: rgb(57, 81, 155);
+  cursor: pointer;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.page-link {
+  text-decoration: none;
+}
+
+.rezervoni-button {
+  font-size: 17px;
+  padding: 11px 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(57, 81, 155);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.rezervoni-button:hover {
+  background-color: rgb(78, 107, 196);
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-burger-icon {
+  display: none;
+}
+
+.dropdown {
+  display: none;
+}
+
+@media (min-width: 700px) and (max-width: 860px) {
+  .nav-container {
+    position: relative;
+    display: block;
+  }
+
+  .header {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0px 1px 4px rgb(160, 178, 184);
+  }
+
+  .header-left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .logo-link {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: auto;
+    height: auto;
+    padding-right: 15px;
+    text-decoration: none;
+  }
+
+  .logo-header {
+    width: 40px;
+    height: auto;
+  }
+
+  .logo-name {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(50, 50, 139);
+  }
+
+  .header-right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 30px;
+  }
+
+  .links-header {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 8px;
+    color: rgb(57, 81, 155);
+    cursor: pointer;
+  }
+
+  .contact-link {
+    text-decoration: none;
+  }
+
+  .page-link {
+    text-decoration: none;
+  }
+
+  .rezervoni-button {
+    font-size: 17px;
+    padding: 11px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 81, 155);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .rezervoni-button:hover {
+    background-color: rgb(78, 107, 196);
+  }
+
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+
+  .menu-burger-icon {
+    display: none;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+}
+
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .nav-container {
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    background-color: white;
+    width: 100vw;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0px 1px 4px rgb(160, 178, 184);
+    overflow: hidden;
+  }
+
+  .header-left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  .logo-link {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: auto;
+    height: auto;
+    padding-right: 15px;
+    text-decoration: none;
+  }
+
+  .logo-header {
+    width: 40px;
+    height: auto;
+  }
+
+  .logo-name {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(50, 50, 139);
+  }
+
+  .header-right-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+
+  }
+
+  .links-header {
+    display: none;
+  }
+
+
+  .rezervoni-button {
+    display: none;
+  }
+
+  .menu-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(57, 81, 155);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+  }
+
+  .menu-burger-icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+
+  .menu-burger-icon:hover {
+    transform: scale(1.1);
+  }
+
+  .menu-icon:hover {
+    background-color: rgb(78, 107, 196);
+  }
+
+  .dropdown {
+    padding-top: 110px;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 30px;
+    gap: 20px;
+  }
+
+  .page-link {
+    display: none;
+  }
+
+  .page-link-dropdown {
+    text-decoration: none;
+  }
+
+  .contact-link-dropdown {
+    text-decoration: none;
+  }
+
+  .dropdown-links {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(57, 81, 155);
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .dropdown-rezervoni-button {
+    font-size: 22px;
+    padding: 15px 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 81, 155);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+  .dropdown-rezervoni-button:hover {
+    background-color: rgb(78, 107, 196);
+  }
+
+}
