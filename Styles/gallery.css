@@ -1,0 +1,453 @@
+.gallery-container {
+  position: relative;
+  display: block;
+  height: 800px;
+  width: auto;
+  background-image: url(../Images/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2700px;
+  align-items: center;
+  justify-content: center;
+  padding: 35px 0px 35px 0px;
+  flex-shrink: 0;
+}
+
+.gallery {
+  position: static;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  min-height: 100%;
+  flex-shrink: 0;
+}
+
+.gallery-text {
+  font-size: 35px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  background-color: rgb(57, 81, 155);
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.images-gallery-main {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 300px 300px 300px;
+  row-gap: 20px;
+  column-gap: 20px;
+  min-height: 100%;
+
+}
+
+.gallery-image1 {
+  filter: grayscale(100%);
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.gallery-image2 {
+  filter: grayscale(100%);
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.gallery-image3 {
+  filter: grayscale(100%);
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.gallery-image4 {
+  filter: grayscale(100%);
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.gallery-image5 {
+  filter: grayscale(100%);
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.gallery-image6 {
+  filter: grayscale(100%);
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.gallery-image1:hover,
+.gallery-image2:hover,
+.gallery-image3:hover,
+.gallery-image4:hover,
+.gallery-image5:hover,
+.gallery-image6:hover {
+  filter: grayscale(0);
+  transition: 0.5s;
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+  .gallery-container {
+    display: flex;
+    height: auto;
+    width: auto;
+    background-image: url(../Images/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1900px;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 0px 45px 0px;
+    flex-shrink: 0;
+  }
+
+
+
+  .gallery {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    min-height: 100%;
+  }
+
+  .gallery-text {
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    background-color: rgb(57, 81, 155);
+    padding: 15px;
+    border-radius: 25px;
+  }
+
+  .images-gallery-main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 350px 350px;
+    row-gap: 30px;
+    column-gap: 20px;
+    min-height: 100%;
+  }
+
+  .gallery-image1 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image2 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image3 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image4 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image5 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image6 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+
+  .gallery-image1:hover,
+  .gallery-image2:hover,
+  .gallery-image3:hover,
+  .gallery-image4:hover,
+  .gallery-image5:hover,
+  .gallery-image6:hover {
+    filter: grayscale(0);
+    transition: 0.5s;
+  }
+
+}
+
+@media (min-width: 500px) and (max-width: 749px) {
+  .gallery-container {
+    display: flex;
+    height: auto;
+    width: auto;
+    background-image: url(../Images/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 3400px;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 0px 45px 0px;
+    flex-shrink: 0;
+  }
+
+
+
+  .gallery {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    min-height: 100%;
+  }
+
+  .gallery-text {
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    background-color: rgb(57, 81, 155);
+    padding: 15px;
+    border-radius: 25px;
+  }
+
+  .images-gallery-main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 350px;
+    row-gap: 30px;
+    column-gap: 20px;
+    min-height: 100%;
+  }
+
+  .gallery-image1 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image2 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image3 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image4 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image5 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image6 {
+    filter: grayscale(100%);
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+
+  .gallery-image1:hover,
+  .gallery-image2:hover,
+  .gallery-image3:hover,
+  .gallery-image4:hover,
+  .gallery-image5:hover,
+  .gallery-image6:hover {
+    filter: grayscale(0);
+    transition: 0.5s;
+  }
+
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .gallery-container {
+    display: flex;
+    height: auto;
+    width: auto;
+    background-image: url(../Images/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2900px;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 0px 45px 0px;
+    flex-shrink: 0;
+  }
+
+
+
+  .gallery {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    min-height: 100%;
+  }
+
+  .gallery-text {
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    background-color: rgb(57, 81, 155);
+    padding: 15px;
+    border-radius: 25px;
+  }
+
+  .images-gallery-main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px;
+    row-gap: 30px;
+    column-gap: 20px;
+    min-height: 100%;
+  }
+
+  .gallery-image1 {
+    filter: grayscale(100%);
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image2 {
+    filter: grayscale(100%);
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image3 {
+    filter: grayscale(100%);
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image4 {
+    filter: grayscale(100%);
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image5 {
+    filter: grayscale(100%);
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  .gallery-image6 {
+    filter: grayscale(100%);
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+
+  .gallery-image1:hover,
+  .gallery-image2:hover,
+  .gallery-image3:hover,
+  .gallery-image4:hover,
+  .gallery-image5:hover,
+  .gallery-image6:hover {
+    filter: grayscale(0);
+    transition: 0.5s;
+  }
+
+}
