@@ -1,0 +1,211 @@
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.parallax-div {
+  position: absolute;
+  background-image: url(../Images/artboard-84x-2000x1142.png);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.hero-section {
+  position: absolute;
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 50vh auto auto 15%;
+}
+
+.title-about {
+  color: rgb(57, 81, 155);
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.text-about {
+  color: rgb(57, 81, 155);
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+
+  .main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parallax-div {
+    position: relative;
+    background-image: url(../Images/artboard-84x-2000x1142.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .hero-section {
+    position: absolute;
+    width: 530px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 30vh auto 25% 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+  }
+
+  .title-about {
+    color: rgb(57, 81, 155);
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+
+  .text-about {
+    color: rgb(57, 81, 155);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 20px;
+  }
+
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+
+  .main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parallax-div {
+    position: absolute;
+    background-image: url(../Images/artboard-84x-2000x1142.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: -420px;
+  }
+
+  .hero-section {
+    position: absolute;
+    width: 480px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 50vh auto 15% 10%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+  }
+
+  .title-about {
+    color: rgb(57, 81, 155);
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+
+  .text-about {
+    color: rgb(57, 81, 155);
+    font-size: 21px;
+    font-weight: 700;
+    padding: 15px;
+  }
+
+}
+
+@media (min-width: 500px) and (max-width: 749px) {
+
+  .main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parallax-div {
+    position: absolute;
+    background-image: url(../Images/artboard-84x-2000x1142.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: -240px;
+  }
+
+  .hero-section {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 50vh auto 15% 10%;
+  }
+
+  .title-about {
+    color: rgb(57, 81, 155);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+  }
+
+  .text-about {
+    color: rgb(57, 81, 155);
+    font-size: 19px;
+    font-weight: 500;
+  }
+
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+
+  .main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .parallax-div {
+    position: absolute;
+    background-image: url(../Images/artboard-84x-2000x1142.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: -430px;
+  }
+
+  .hero-section {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 50% auto 15% auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+  }
+
+  .title-about {
+    color: rgb(57, 81, 155);
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+
+  .text-about {
+    color: rgb(57, 81, 155);
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px;
+  }
+
+}
